@@ -29,13 +29,7 @@ Resources:
       Runtime: python3.9
       Handler: lambda_function.lambda_handler
       Role: arn:aws:iam::948243690849:role/lambda-execution-role
-      Environment:
-        Variables:
-          dbname: group2_cafe
-          host: redshiftcluster-bie5pcqdgojl.cje2eu9tzolt.eu-west-1.redshift.amazonaws.com
-          user: group2
-          password: Redshift-delon8-group2-87sweadj
-          port: 5439
+
       Layers:
         - arn:aws:lambda:eu-west-1:336392948345:layer:AWSSDKPandas-Python39:2
         - arn:aws:lambda:eu-west-1:948243690849:layer:psycopg2_layer:3
