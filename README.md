@@ -12,17 +12,7 @@
 	3. [Data Normalisation](#data-normalisation)
 	4. [Database Connection](#database-connection)
 	5. [Docker](#docker)
-6. [Sprint 2]
-    1. [AWS Setup getting things ready]
-	1. [Create ETL Lambda]
-	2. [Modify ETL Lambda to be called by S3]
-    3. [Modify ETL Lambda to load data into redshift]
-7. [Sprint 3]
-	1. [Setup Grafana Infrastructure]
-	2. [Setup Grafana Data Source]
-    3. [Setup Grafana Data Source(CloudWatch)]
-8. [Sprint 4]
-	1. [Contineue...]
+
 
 ## Project Description
 
